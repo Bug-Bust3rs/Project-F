@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom"
 import { useState } from "react";
 import log_img from "../../assets/login.png";
@@ -56,3 +57,5 @@ export default function Page(): JSX.Element {
     </main>
   );
 }
+export default Login
+
