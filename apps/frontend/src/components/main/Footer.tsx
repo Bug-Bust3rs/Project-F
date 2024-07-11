@@ -1,8 +1,7 @@
-interface FooterProps {}
+interface FooterProps { }
 
 import { Link } from "react-router-dom"
 interface FooterProps { }
-
 
 const Footer: React.FC<FooterProps> = () => {
   return (
@@ -48,25 +47,25 @@ const Footer: React.FC<FooterProps> = () => {
           </div>
         </div>
 
-        <div className="flex justify-center space-x-5">
-        <Link to={'https://facebook.com'}>
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" alt="Facebook" />
+        <div className="flex justify-center space-x-5 items-center">
+          <Link to={'https://facebook.com'}>
+            <img className="w-7" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook" />
+          </Link>
+          
+          <Link to={'https://www.instagram.com/fuddieofficial/'}>
+            <img className="w-7" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" />
+          </Link>
+
+          <Link to={'https://x.com/fuddieofficial'}>
+            <img className="w-7" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="Twitter" />
           </Link>
 
           <Link to={'https://facebook.com'}>
-            <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" alt="LinkedIn" /></Link>
-
-
-         <Link to={'https://www.instagram.com/fuddieofficial/'}>
-            <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" alt="Instagram" />
+            <img className="w-7" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" />
           </Link>
 
-          <Link to={'https://facebook.com'}>
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" alt="Messenger" />
-          </Link>
-
-           <Link to={'https://x.com/fuddieofficial'}>
-            <img src="https://img.icons8.com/fluent/30/000000/twitter.png" alt="Twitter" />
+          <Link to={'https://x.com/fuddieofficial'}>
+            <img className="w-8" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="Twitter" />
           </Link>
         </div>
 
